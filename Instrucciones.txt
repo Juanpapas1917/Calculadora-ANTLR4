@@ -1,0 +1,10 @@
+Instalar pip:
+sudo pacman -S python-pip
+Crear VENV python:
+python3 -m venv .venv
+source .venv/bin/activate
+Instalar los requisitos:
+pip install -r requirements.txt
+antlr4 -visitor -Dlanguage=Python3 LabeledExpr.g4
+Correr el archivo con una prueba:
+python3 test_Expr.py t.expr
